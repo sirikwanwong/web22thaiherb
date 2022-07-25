@@ -1,0 +1,631 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: CordiaUPC;
+    color : #0d6fa0;
+}
+
+.header-text{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+    color : #0d6fa0;
+}
+.header-text h1{
+    font-size: 4rem;
+}
+.header-text p{
+    font-size: 25px;
+    line-height: 1.5;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+/*-------------------------กล่องที่1-------------------*/
+/*สร้างกล่อง*/
+.main1{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img1{
+    height: 280px;
+    background: sienna;
+    overflow: hidden;
+}
+.img1 img{
+    width: 100%;/*กำหนดขอบเขตรูปภาพให้อยู่กรอบ*/
+}
+/*ข้อมูลกล่อง1*/
+.fact1{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+/*--------------------------------------------------------*/
+
+/*-------------------------กล่องที่2-------------------*/
+/*สร้างกล่อง*/
+.main2{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img2{
+    height: 280px;
+    background:sienna;
+    overflow: hidden;
+}
+.img2 img{
+    width: 100%;
+}
+/*ข้อมูลกล่อง2*/
+.fact2{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+
+/*--------------------------------------------------------*/
+
+/*-------------------------กล่องที่3-------------------*/
+/*สร้างกล่อง*/
+.main3{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img3{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img3 img{
+    width: 100%;
+}
+/*ข้อมูลกล่อง3*/
+.fact3{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+
+/*--------------------------------------------------------*/
+
+/*-------------------------กล่องที่4-------------------*/
+/*สร้างกล่อง*/
+.main4{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img4{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img4 img{
+    width: 100%;
+}
+/*ข้อมูลกล่อง3*/
+.fact4{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+
+
+/*-------------------------กล่องที่5-------------------*/
+/*สร้างกล่อง*/
+.main5{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img5{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img5 img{
+    width: 100%;
+}
+/*ข้อมูลกล่อง3*/
+.fact5{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+
+/*-------------------------กล่องที่6-------------------*/
+/*สร้างกล่อง*/
+.main6{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img6{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img6 img{
+    width: 100%;
+}
+/*ข้อมูลกล่อง3*/
+.fact6{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+
+/*-------------------------กล่องที่7-------------------*/
+/*สร้างกล่อง*/
+.main7{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img7{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img7 img{
+    width: 100%;
+}
+/*ข้อมูลกล่อง3*/
+.fact7{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+
+/*-------------------------กล่องที่8-------------------*/
+/*สร้างกล่อง*/
+.main8{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img8{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img8 img{
+    width: 100%;
+}
+/*ข้อมูลกล่อง3*/
+.fact8{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+/*-------------------------กล่องที่9-------------------*/
+/*สร้างกล่อง*/
+.main9{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; /*ความโค้งมนของเส้นขอบ*/
+    overflow: hidden; /*ตัดส่วนเกินขอบออก*/
+}
+/*เข้าถึง class รูปภาพ*/
+.img9{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img9 img{
+    width: 100%;
+}
+/*ข้อมูลกล่อง3*/
+.fact9{
+    text-align: center;/*จัดกึ่งกลางข้อความ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;/*ระยะห่างจากขอบ*/
+}
+/*-------------------------กล่องที่10-------------------*/
+.main10{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img10{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img10 img{
+    width: 100%;
+}
+.fact10{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่11-------------------*/
+.main11{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img11{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img11 img{
+    width: 100%;
+}
+.fact11{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่12-------------------*/
+.main12{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img12{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img12 img{
+    width: 100%;
+}
+.fact12{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่13-------------------*/
+.main13{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img13{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img13 img{
+    width: 100%;
+}
+.fact13{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่14-------------------*/
+.main14{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img14{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img14 img{
+    width: 100%;
+}
+.fact14{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่15-------------------*/
+.main15{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img15{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img15 img{
+    width: 100%;
+}
+.fact15{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+/*-------------------------กล่องที่16-------------------*/
+.main16{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img16{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img16 img{
+    width: 100%;
+}
+.fact16{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่17-------------------*/
+.main17{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img17{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img17 img{
+    width: 100%;
+}
+.fact17{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่18-------------------*/
+.main18{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img18{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img18 img{
+    width: 100%;
+}
+.fact18{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่19-------------------*/
+.main19{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img19{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img19 img{
+    width: 100%;
+}
+.fact19{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่20-------------------*/
+.main20{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img20{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img20 img{
+    width: 100%;
+}
+.fact20{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่21-------------------*/
+.main21{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img21{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img21 img{
+    width: 100%;
+}
+.fact21{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+/*-------------------------กล่องที่22-------------------*/
+.main22{
+    width: 370px;
+    margin: 5rem auto;
+    height: 460px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.img22{
+    height: 277px;
+    background:sienna;
+    overflow: hidden;
+}
+.img22 img{
+    width: 100%;
+}
+.fact22{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+.nav-text{ 
+    padding: 4rem;
+    text-align: center;
+    color : #0d6fa0;
+}
+.nav-text p{
+    font-size: 20px;
+}
+
+footer{
+    background: rgb(245, 220, 191);
+    font-family: CordiaUPC;
+    color : #006699;
+    height :200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text h1{
+    font-size: 2rem;
+}
+.footer-text p{
+    font-size: 20px;
+}
